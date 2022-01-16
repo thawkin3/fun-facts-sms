@@ -1,6 +1,6 @@
 # Fun Facts SMS
 
-This is a app built with Node and Express that allows users to enter their phone number to receive an SMS text with a fun fact. The SMS integration is built using Infobip.
+This is an app built with Node and Express that allows users to enter their phone number to receive an SMS text with a fun fact. The SMS integration is built using Infobip.
 
 ## Running the App Locally
 
