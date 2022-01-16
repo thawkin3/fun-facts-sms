@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="App built with Node and Express that allows users to enter their phone number to receive an SMS text with a fun fact"
+    />
+    <title>Fun Facts SMS</title>
+		<link href="./style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <main>
+      <h1>Fun Facts SMS</h1>
+      <p>Enter your phone number (including country code) to receive an SMS text.</p>
+      <form id="phoneNumberForm">
+        <label for="phone" class="sr-only">Phone Number (with country code)</label>
+        <input type="text" name="phone" id="phone" placeholder="1 555 777 9999" autocomplete="off" />
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <script src="./script.js" type="text/javascript"></script>
+  </body>
+</html>
