@@ -1,12 +1,14 @@
 # Fun Facts SMS
 
-This is an app built with Node and Express that allows users to enter their phone number to receive an SMS text with a fun fact. The SMS integration is built using Infobip.
+This is an app built with Node and Express that allows users to enter their phone number to receive an SMS text with a fun fact. The SMS integration is built using [Infobip](https://www.infobip.com/).
 
 ![Step 1](./demo-screenshots/FunFactsSMS1.png)
 ![Step 2](./demo-screenshots/FunFactsSMS2.png)
 ![Step 3](./demo-screenshots/FunFactsSMS3.png)
 
 ## Running the App Locally
+
+There are two environment variables the app needs. Create an `.env` file with variables for `API_KEY` and `API_BASE_URL`. Those values can be obtained after creating a free account with [Infobip](https://www.infobip.com/). Once you have an account created and your `.env` file populated with your secrets, follow these instructions to start the app.
 
 1. `yarn install`
 2. `yarn start`
