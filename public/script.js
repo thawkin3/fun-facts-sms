@@ -1,4 +1,4 @@
-(function() {
+(function () {
   console.log('hey');
 
   const submitPhoneNumberForm = (e) => {
@@ -11,14 +11,14 @@
     }
 
     fetch(`api/send-sms/${phoneNumber}`)
-      .then(response => response.json())
-      .then(data => {
+      .then((response) => response.json())
+      .then((data) => {
         console.log('Success:', data);
       })
       .catch((error) => {
         console.error('Error:', error);
       });
-  }
+  };
 
   const phoneNumberForm = document.querySelector('#phoneNumberForm');
   phoneNumberForm.addEventListener('submit', submitPhoneNumberForm);

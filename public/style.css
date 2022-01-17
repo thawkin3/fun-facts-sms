@@ -2,7 +2,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -10,7 +11,7 @@ html, body {
 
 html {
   font-size: 16px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -49,7 +50,7 @@ label {
   margin-bottom: 1rem;
 }
 
-input[type="text"] {
+input[type='text'] {
   padding: 0.5rem 0.5rem;
   font-size: 1rem;
   border: 0.0625rem solid #071a32;
@@ -62,8 +63,8 @@ input[type="text"] {
   margin-bottom: 1rem;
 }
 
-input[type="text"]:focus,
-input[type="text"]:hover {
+input[type='text']:focus,
+input[type='text']:hover {
   outline: none;
   border: 0.0625rem solid #071a32;
   border-bottom: 0.25rem solid #ff5a00;
@@ -73,7 +74,7 @@ input[type="text"]:hover {
 button {
   padding: 0.5rem 0.75rem;
   font-size: 1rem;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
   border-radius: 0.5rem;
   border: none;
   background: #ff5a00;
@@ -94,7 +95,7 @@ button:hover {
 button:focus::before,
 button:hover::before {
   box-shadow: #ff5a00 0 0 0 0.0625rem;
-  content: "";
+  content: '';
   height: calc(100% + 0.25rem);
   left: 0;
   margin-left: -0.25rem;

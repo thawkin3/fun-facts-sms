@@ -17,6 +17,7 @@
   "author": "Tyler Hawkins",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^13.0.1",
     "express": "^4.17.2",
     "node-fetch": "^2.6.7"
   },
