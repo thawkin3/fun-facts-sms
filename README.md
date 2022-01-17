@@ -2,6 +2,10 @@
 
 This is an app built with Node and Express that allows users to enter their phone number to receive an SMS text with a fun fact. The SMS integration is built using Infobip.
 
+![Step 1](./demo-screenshots/FunFactsSMS1.png)
+![Step 2](./demo-screenshots/FunFactsSMS2.png)
+![Step 3](./demo-screenshots/FunFactsSMS3.png)
+
 ## Running the App Locally
 
 1. `yarn install`
