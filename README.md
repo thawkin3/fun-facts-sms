@@ -20,6 +20,15 @@ This is an app built with Node and Express that allows users to enter their phon
 
 ## Resources
 
+### Infobip
+
+- API Docs: https://www.infobip.com/docs/api
+- SMS API Docs: https://www.infobip.com/docs/sms/api
+- API Authentication Docs: https://www.infobip.com/docs/essentials/api-authentication#api-key-header
+- Various Use Cases: https://www.infobip.com/docs/use-cases
+
+### Other Tools
+
 - Express.js: https://expressjs.com/
 - Prettier: https://prettier.io/
 - on-change: https://www.npmjs.com/package/on-change
