@@ -1,5 +1,5 @@
 (function () {
-  console.log('hey');
+  const resultContainer = document.querySelector('#result');
 
   const submitPhoneNumberForm = (e) => {
     e.preventDefault();
@@ -12,11 +12,13 @@
 
     fetch(`api/send-sms/${phoneNumber}`)
       .then((response) => response.json())
-      .then((data) => {
-        console.log('Success:', data);
+      .then(() => {
+        resultContainer.textContent = `Success! Sent text message to: ${phoneNumber}`;
+        resultContainer.classList.remove('hidden');
       })
-      .catch((error) => {
-        console.error('Error:', error);
+      .catch(() => {
+        resultContainer.textContent = `Error. Unable to send text message to: ${phoneNumber}`;
+        resultContainer.classList.remove('hidden');
       });
   };
 

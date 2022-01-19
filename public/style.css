@@ -116,3 +116,16 @@ button:hover::before {
   height: 1px;
   overflow: hidden;
 }
+
+.hidden {
+  display: none;
+}
+
+#result {
+  background: rgb(255, 90, 0, 0.2);
+  padding: 1rem;
+  border: solid 1px rgb(255, 90, 0);
+  border-radius: 0.25rem;
+  width: 100%;
+  margin-top: 2rem;
+}
